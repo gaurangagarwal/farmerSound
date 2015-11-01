@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/tutorialT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="Tutorial"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/newsT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tutBtn2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:text="News and Policies"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tutBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/newsT"
+        android:layout_alignLeft="@+id/newsT"
+        android:text="Audio" />
+
+    <TextView
+        android:id="@+id/newsBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/newsT"
+        android:layout_below="@+id/newsT"
+        android:layout_marginTop="28dp"
+        android:text="Audio" />
+
+    <TextView
+        android:id="@+id/tutBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/newsBtn2"
+        android:layout_below="@+id/tutorialT"
+        android:layout_marginTop="17dp"
+        android:text="PDF" />
+
+    <TextView
+        android:id="@+id/newsBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/newsBtn1"
+        android:layout_alignBottom="@+id/newsBtn1"
+        android:layout_alignRight="@+id/newsT"
+        android:text="PDF" />
+
+</RelativeLayout>
